@@ -1,0 +1,137 @@
+
+
+
+# .abs__InterruptVectorTable
+  00000000 000001E0 .abs    InterruptVectorTable	(Vectors_c.obj)
+
+# .abs_NVPROT_INIT
+  0000040D 00000001 .abs    NVPROT_INIT	(Cpu_c.obj)
+
+# .abs_NVOPT_INIT
+  0000040F 00000001 .abs    NVOPT_INIT	(Cpu_c.obj)
+#>00000400          ___heap_size (linker command file)
+#>00000400          ___stack_size (linker command file)
+#>00800000          ___RAM_ADDRESS (linker command file)
+#>00008000          ___RAM_SIZE (linker command file)
+#>00000000          ___FLASH_ADDRESS (linker command file)
+#>00040000          ___FLASH_SIZE (linker command file)
+
+# .userram
+
+# .code
+
+# .text
+  00000410 000000F4 .text   PE_Timer_LngMul	(PE_Timer_c.obj)
+  00000504 00000056 .text   PE_Timer_LngHi4	(PE_Timer_c.obj)
+  0000055A 00000022 .text   KB1_Interrupt	(KB1_c.obj)
+  0000057C 00000026 .text   KB1_Init	(KB1_c.obj)
+  000005A2 0000005A .text   LoadTicks	(FC321_c.obj)
+  000005FC 0000005E .text   FC321_Reset	(FC321_c.obj)
+  0000065A 0000004A .text   FC321_GetTimeMS	(FC321_c.obj)
+  000006A4 00000042 .text   FC321_Init	(FC321_c.obj)
+  000006E6 00000032 .text   FC321_Interrupt	(FC321_c.obj)
+  00000718 00000002 .text   Cpu_Interrupt	(Cpu_c.obj)
+  0000071A 0000006C .text   __initialize_hardware	(Cpu_c.obj)
+  00000786 00000120 .text   PE_low_level_init	(Cpu_c.obj)
+  000008A6 00000026 .text   Bit1_PutVal	(Bit1_c.obj)
+  000008CC 000000B6 .text   AS2_SendChar	(AS2_c.obj)
+  00000982 00000132 .text   AS2_SendBlock	(AS2_c.obj)
+  00000AB4 0000008C .text   AS2_InterruptRx	(AS2_c.obj)
+  00000B40 000000BE .text   AS2_InterruptTx	(AS2_c.obj)
+  00000BFE 00000030 .text   AS2_InterruptError	(AS2_c.obj)
+  00000C2E 0000005C .text   AS2_Init	(AS2_c.obj)
+  00000C8A 00000002 .text   __initialize_system	(startcf_c.obj)
+  00000C8C 00000062 .text   __copy_rom_section	(startcf_c.obj)
+  00000CEE 00000046 .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  00000D34 00000004 .text   _ExitProcess	(startcf_c.obj)
+  00000D38 00000210 .text   clear_mem	(startcf_c.obj)
+  00000F48 00000090 .text   _startup	(startcf_c.obj)
+  00000FD8 00000274 .text   main	(main_c.obj)
+  0000124C 0000000C .text   KB1_OnInterrupt	(Events_c.obj)
+  00001258 00000002 .text   AS2_OnError	(Events_c.obj)
+  0000125A 00000002 .text   AS2_OnRxChar	(Events_c.obj)
+  0000125C 00000002 .text   AS2_OnTxChar	(Events_c.obj)
+  0000125E 00000002 .text   AS2_OnFreeTxBuf	(Events_c.obj)
+  00001260 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  0000127C 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  000012A8 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+#>000012B4          ___ROM_AT (linker command file)
+#>000012B4          ___DATA_ROM (linker command file)
+
+# .data
+#>00800000          ___DATA_RAM (linker command file)
+#>00800000          __exception_table_start__ (linker command file)
+# Exception index
+  00800000 00000000         Exception Table Index	()
+#>00800000          __exception_table_end__ (linker command file)
+#>00800000          ___sinit__ (linker command file)
+# Linker generated symbols
+  00800000 00000004         static initializer	(linker generated)
+#>00800004          __START_DATA (linker command file)
+#>00800004          __END_DATA (linker command file)
+#>00800004          __START_SDATA (linker command file)
+  00800004 00000001 .sdata  cabecera	(main_c.obj)
+  00800005 00000001 .sdata  cola	(main_c.obj)
+#>00800008          __END_SDATA (linker command file)
+#>00800008          ___DATA_END (linker command file)
+#>00800008          __SDA_BASE (linker command file)
+
+# .bss
+#>00800008          ___BSS_START (linker command file)
+#>00800008          __START_SBSS (linker command file)
+  00800008 00000001 .sbss   LOvf	(FC321_c.obj)
+  00800009 00000001 .sbss   TOvf	(FC321_c.obj)
+  0080000C 00000004 .sbss   LTicks	(FC321_c.obj)
+  00800010 00000004 .sbss   TTicks	(FC321_c.obj)
+  00800014 00000001 .sbss   SR_lock	(Cpu_c.obj)
+  00800015 00000001 .sbss   OnFreeTxBuf_semaphore	(AS2_c.obj)
+  00800016 0000001B .sbss   OutBuffer	(AS2_c.obj)
+  00800031 00000001 .sbss   OutIndxW	(AS2_c.obj)
+  00800032 00000001 .sbss   OutIndxR	(AS2_c.obj)
+  00800033 00000001 .sbss   AS2_OutLen	(AS2_c.obj)
+  00800034 00000001 .sbss   BufferRead	(AS2_c.obj)
+  00800035 00000001 .sbss   SerFlag	(AS2_c.obj)
+  00800036 00000001 .sbss   overcurrent	(main_c.obj)
+  00800038 00000018 .sbss   sensores	(main_c.obj)
+  00800050 00000002 .sbss   clock_actual	(main_c.obj)
+  00800052 00000002 .sbss   clock_inicial	(main_c.obj)
+  00800054 00000002 .sbss   sent	(main_c.obj)
+  00800056 00000002 .sbss   contador	(Events_c.obj)
+#>00800058          __END_SBSS (linker command file)
+#>00800058          __START_BSS (linker command file)
+  00800058 00000002 .bss    SR_reg	(Cpu_c.obj)
+  0080005C 00000004 .bss    __global_destructor_chain	(librt.a cf_staticinitia)
+#>00800060          __END_BSS (linker command file)
+#>00800060          ___BSS_END (linker command file)
+
+# .custom
+#>00800060          ___HEAP_START (linker command file)
+#>00800060          ___heap_addr (linker command file)
+#>00800460          ___HEAP_END (linker command file)
+#>00800460          ___SP_END (linker command file)
+#>00800860          ___SP_INIT (linker command file)
+#>00800460          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>00800860          __SP_INIT (linker command file)
+#>00800860          ___SP_AFTER_RESET (linker command file)
+#>000012BC          _romp_at (linker command file)
+
+# .romp
+#>000012BC          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  00000000 00000000 000001E0 .abs__InterruptVectorTable abs__InterruptVectorTable
+  0000040D 0000040D 00000001 .abs_NVPROT_INIT abs_NVPROT_INIT
+  0000040F 0000040F 00000001 .abs_NVOPT_INIT abs_NVOPT_INIT
+  00000410 00000410 00000000 .code      code
+  00000410 00000410 00000EA4 .text      code
+  00800000 00800000 00000000 .userram   userram
+  00800000 000012B4 00000008 .data      userram
+  00800008 00800008 00000058 .bss       userram
+  00800060 00800060 00000000 .custom    userram
+  00800060 000012BC 00000018 .romp      userram
+
+# Link start time: Fri Jun 19 18:42:44 2015
+# Link end time: Fri Jun 19 18:42:44 2015

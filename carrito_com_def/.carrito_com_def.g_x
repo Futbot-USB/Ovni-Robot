@@ -1,0 +1,69 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/Bit1.h" FileDate="2015-06-10, 16:33:38" FileAge="1433970218374" FileType="45637" CompNumb="93" />
+      <File Name="Generated_Code/KB1.h" FileDate="2015-05-25, 02:13:46" FileAge="1432536226772" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2015-06-10, 16:33:38" FileAge="1433970218392" FileType="45637" CompNumb="93" />
+      <File Name="Generated_Code/KB1.c" FileDate="2015-05-25, 02:13:46" FileAge="1432536226812" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2015-06-12, 15:32:23" FileAge="1434139343569" FileType="45637" CompNumb="2" />
+      <File Name="Sources/Events.h" FileDate="2015-06-18, 19:16:55" FileAge="1434671215939" FileType="131328" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2015-06-18, 19:16:55" FileAge="1434671215857" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2015-05-06, 17:38:22" FileAge="1430950102114" FileType="45637" />
+      <File Name="Generated_Code/PWM4.h" FileDate="2015-05-11, 16:05:20" FileAge="1431376520575" FileType="45637" CompNumb="9" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.lcf" FileDate="2015-05-06, 17:38:22" FileAge="1430950102074" FileType="8" CompNumb="2" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2015-05-06, 17:38:22" FileAge="1430950102124" FileType="45637" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2015-05-06, 17:38:22" FileAge="1430950102114" FileType="45637" />
+      <File Name="Sources/Events.c" FileDate="2015-06-12, 15:49:19" FileAge="1434140359095" FileType="131328" />
+      <File Name="Generated_Code/PWM4.c" FileDate="2015-05-11, 16:05:20" FileAge="1431376520683" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/Ref4.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523440" FileType="45637" CompNumb="14" />
+      <File Name="Generated_Code/En4.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523299" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/PWM3.h" FileDate="2015-05-11, 16:05:20" FileAge="1431376520358" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/Ref4.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523427" FileType="45637" CompNumb="14" />
+      <File Name="Sources/main.c" FileDate="2015-06-19, 12:47:27" FileAge="1434734247116" FileType="128" />
+      <File Name="Generated_Code/En4.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523287" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/FC321.h" FileDate="2015-06-19, 13:15:33" FileAge="1434735933720" FileType="45637" CompNumb="64" />
+      <File Name="Generated_Code/PWM3.c" FileDate="2015-05-11, 16:05:20" FileAge="1431376520499" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/Ref3.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523470" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/FC321.c" FileDate="2015-06-19, 13:15:33" FileAge="1434735933821" FileType="45637" CompNumb="64" />
+      <File Name="Generated_Code/En3.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523367" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/PWM2.h" FileDate="2015-05-11, 16:05:20" FileAge="1431376520200" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/Ref3.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523450" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/En3.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523356" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/PWM2.c" FileDate="2015-05-11, 16:05:20" FileAge="1431376520313" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/TI1.h" FileDate="2015-06-19, 11:23:35" FileAge="1434729215332" FileType="45637" CompNumb="113" />
+      <File Name="Generated_Code/Ref2.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523490" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2015-06-18, 19:16:55" FileAge="1434671215892" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/En2.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523394" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/TI1.c" FileDate="2015-06-19, 11:23:36" FileAge="1434729216034" FileType="45637" CompNumb="113" />
+      <File Name="Generated_Code/PWM1.h" FileDate="2015-05-11, 16:05:20" FileAge="1431376520062" FileType="45637" CompNumb="6" />
+      <File Name="Generated_Code/Ref2.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523480" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/En2.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523377" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/PWM1.c" FileDate="2015-05-11, 16:05:20" FileAge="1431376520077" FileType="45637" CompNumb="6" />
+      <File Name="Documentation/carrito_com_def.txt" FileDate="2015-06-18, 19:16:56" FileAge="1434671216411" FileType="3072" />
+      <File Name="Generated_Code/Ref1.h" FileDate="2015-05-06, 17:45:23" FileAge="1430950523520" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/AD1.h" FileDate="2015-06-10, 17:51:34" FileAge="1433974894737" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/En1.h" FileDate="2015-05-21, 14:06:50" FileAge="1432233410890" FileType="45637" CompNumb="15" />
+      <File Name="Documentation/carrito_com_def_Settings.xml" FileDate="2015-06-19, 13:15:34" FileAge="1434735934284" FileType="3072" />
+      <File Name="Generated_Code/AS2.h" FileDate="2015-06-19, 12:23:51" FileAge="1434732831738" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/Ref1.c" FileDate="2015-05-06, 17:45:23" FileAge="1430950523500" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/AD1.c" FileDate="2015-06-10, 17:51:34" FileAge="1433974894857" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/En1.c" FileDate="2015-05-21, 14:06:50" FileAge="1432233410894" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/AS2.c" FileDate="2015-06-19, 12:23:52" FileAge="1434732832059" FileType="45637" CompNumb="20" />
+      <File Name="Documentation/carrito_com_def_SIGNALS.txt" FileDate="2015-06-19, 13:15:34" FileAge="1434735934011" FileType="3072" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2015-05-06, 17:38:22" FileAge="1430950102114" FileType="45637" />
+      <File Name="Generated_Code/PE_Timer.h" FileDate="2015-06-19, 13:15:33" FileAge="1434735933821" FileType="45637" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2015-05-06, 17:38:22" FileAge="1430950102094" FileType="45637" />
+      <File Name="Generated_Code/PE_Timer.c" FileDate="2015-06-19, 13:15:33" FileAge="1434735933851" FileType="45637" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>130</CodeGenReference>
+</CodeGenerationInfo>

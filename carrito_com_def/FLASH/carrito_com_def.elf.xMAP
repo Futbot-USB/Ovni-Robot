@@ -1,0 +1,187 @@
+
+
+
+# .abs__InterruptVectorTable
+  00000000 000001E0 .abs    InterruptVectorTable	(Vectors_c.obj)
+
+# .abs_NVPROT_INIT
+  0000040D 00000001 .abs    NVPROT_INIT	(Cpu_c.obj)
+
+# .abs_NVOPT_INIT
+  0000040F 00000001 .abs    NVOPT_INIT	(Cpu_c.obj)
+#>00000400          ___heap_size (linker command file)
+#>00000400          ___stack_size (linker command file)
+#>00800000          ___RAM_ADDRESS (linker command file)
+#>00008000          ___RAM_SIZE (linker command file)
+#>00000000          ___FLASH_ADDRESS (linker command file)
+#>00040000          ___FLASH_SIZE (linker command file)
+
+# .userram
+
+# .code
+
+# .text
+  00000410 0000002A .text   TI1_Init	(TI1_c.obj)
+  0000043A 00000030 .text   TI1_Interrupt	(TI1_c.obj)
+  0000046A 00000026 .text   Ref4_PutVal	(Ref4_c.obj)
+  00000490 00000026 .text   Ref3_PutVal	(Ref3_c.obj)
+  000004B6 00000026 .text   Ref2_PutVal	(Ref2_c.obj)
+  000004DC 00000026 .text   Ref1_PutVal	(Ref1_c.obj)
+  00000502 0000002E .text   SetRatio	(PWM4_c.obj)
+  00000530 0000001C .text   PWM4_SetRatio8	(PWM4_c.obj)
+  0000054C 00000018 .text   PWM4_Init	(PWM4_c.obj)
+  00000564 0000002E .text   SetRatio	(PWM3_c.obj)
+  00000592 0000001C .text   PWM3_SetRatio8	(PWM3_c.obj)
+  000005AE 00000018 .text   PWM3_Init	(PWM3_c.obj)
+  000005C6 0000002E .text   SetRatio	(PWM2_c.obj)
+  000005F4 0000001C .text   PWM2_SetRatio8	(PWM2_c.obj)
+  00000610 00000026 .text   PWM2_Init	(PWM2_c.obj)
+  00000636 0000002E .text   SetRatio	(PWM1_c.obj)
+  00000664 0000001C .text   PWM1_SetRatio8	(PWM1_c.obj)
+  00000680 00000026 .text   PWM1_Init	(PWM1_c.obj)
+  000006A6 000000F4 .text   PE_Timer_LngMul	(PE_Timer_c.obj)
+  0000079A 00000056 .text   PE_Timer_LngHi4	(PE_Timer_c.obj)
+  000007F0 00000022 .text   KB1_Interrupt	(KB1_c.obj)
+  00000812 00000026 .text   KB1_Init	(KB1_c.obj)
+  00000838 0000005A .text   LoadTicks	(FC321_c.obj)
+  00000892 00000038 .text   HWEnDi	(FC321_c.obj)
+  000008CA 0000005C .text   FC321_Reset	(FC321_c.obj)
+  00000926 0000004A .text   FC321_GetTimeMS	(FC321_c.obj)
+  00000970 00000046 .text   FC321_Init	(FC321_c.obj)
+  000009B6 00000040 .text   FC321_Interrupt	(FC321_c.obj)
+  000009F6 00000026 .text   En4_PutVal	(En4_c.obj)
+  00000A1C 00000026 .text   En3_PutVal	(En3_c.obj)
+  00000A42 00000026 .text   En2_PutVal	(En2_c.obj)
+  00000A68 00000026 .text   En1_PutVal	(En1_c.obj)
+  00000A8E 00000002 .text   Cpu_Interrupt	(Cpu_c.obj)
+  00000A90 0000006C .text   __initialize_hardware	(Cpu_c.obj)
+  00000AFC 0000021C .text   PE_low_level_init	(Cpu_c.obj)
+  00000D18 00000026 .text   Bit1_PutVal	(Bit1_c.obj)
+  00000D3E 000000D4 .text   AS2_RecvChar	(AS2_c.obj)
+  00000E12 000000B6 .text   AS2_SendChar	(AS2_c.obj)
+  00000EC8 00000092 .text   AS2_RecvBlock	(AS2_c.obj)
+  00000F5A 00000106 .text   AS2_SendBlock	(AS2_c.obj)
+  00001060 0000006A .text   AS2_ClearRxBuf	(AS2_c.obj)
+  000010CA 0000009A .text   AS2_InterruptRx	(AS2_c.obj)
+  00001164 0000007C .text   AS2_InterruptTx	(AS2_c.obj)
+  000011E0 00000020 .text   AS2_InterruptError	(AS2_c.obj)
+  00001200 00000068 .text   AS2_Init	(AS2_c.obj)
+  00001268 00000088 .text   AD1_Interrupt	(AD1_c.obj)
+  000012F0 00000048 .text   AD1_HWEnDi	(AD1_c.obj)
+  00001338 00000042 .text   AD1_MeasureChan	(AD1_c.obj)
+  0000137A 00000042 .text   AD1_GetChanValue	(AD1_c.obj)
+  000013BC 00000026 .text   AD1_Init	(AD1_c.obj)
+  000013E2 00000002 .text   __initialize_system	(startcf_c.obj)
+  000013E4 00000062 .text   __copy_rom_section	(startcf_c.obj)
+  00001446 00000046 .text   __copy_rom_sections_to_ram	(startcf_c.obj)
+  0000148C 00000004 .text   _ExitProcess	(startcf_c.obj)
+  00001490 00000210 .text   clear_mem	(startcf_c.obj)
+  000016A0 00000090 .text   _startup	(startcf_c.obj)
+  00001730 000003C0 .text   main	(main_c.obj)
+  00001AF0 00000062 .text   AS2_OnFullRxBuf	(Events_c.obj)
+  00001B52 00000008 .text   TI1_OnInterrupt	(Events_c.obj)
+  00001B5A 0000000C .text   KB1_OnInterrupt	(Events_c.obj)
+  00001B66 0000001C .text   __call_static_initializers	(librt.a cf_staticinitia)
+  00001B82 0000002C .text   __destroy_global_chain	(librt.a cf_staticinitia)
+  00001BAE 0000000C .text   _ewl_exit	(librt.a abort_exit.o   )
+  00001BBC 00000004 .rodata Table	(AD1_c.obj)
+  00001BC0 00000004 .rodata Channels	(AD1_c.obj)
+#>00001BC4          ___ROM_AT (linker command file)
+#>00001BC4          ___DATA_ROM (linker command file)
+
+# .data
+#>00800000          ___DATA_RAM (linker command file)
+#>00800000          __exception_table_start__ (linker command file)
+# Exception index
+  00800000 00000000         Exception Table Index	()
+#>00800000          __exception_table_end__ (linker command file)
+#>00800000          ___sinit__ (linker command file)
+# Linker generated symbols
+  00800000 00000004         static initializer	(linker generated)
+#>00800004          __START_DATA (linker command file)
+#>00800004          __END_DATA (linker command file)
+#>00800004          __START_SDATA (linker command file)
+  00800004 00000008 .sdata  motores	(main_c.obj)
+  0080000C 00000001 .sdata  cabecera	(main_c.obj)
+  0080000D 00000001 .sdata  cola	(main_c.obj)
+  0080000E 00000001 .sdata  activo	(main_c.obj)
+#>00800010          __END_SDATA (linker command file)
+#>00800010          ___DATA_END (linker command file)
+#>00800010          __SDA_BASE (linker command file)
+
+# .bss
+#>00800010          ___BSS_START (linker command file)
+#>00800010          __START_SBSS (linker command file)
+  00800010 00000002 .sbss   CmpVal	(TI1_c.obj)
+  00800012 00000002 .sbss   ActualRatio	(PWM4_c.obj)
+  00800014 00000002 .sbss   ActualRatio	(PWM3_c.obj)
+  00800016 00000002 .sbss   ActualRatio	(PWM2_c.obj)
+  00800018 00000002 .sbss   ActualRatio	(PWM1_c.obj)
+  0080001A 00000002 .sbss   CmpVal	(FC321_c.obj)
+  0080001C 00000001 .sbss   LOvf	(FC321_c.obj)
+  0080001D 00000001 .sbss   TOvf	(FC321_c.obj)
+  00800020 00000004 .sbss   LTicks	(FC321_c.obj)
+  00800024 00000004 .sbss   TTicks	(FC321_c.obj)
+  00800028 00000001 .sbss   SR_lock	(Cpu_c.obj)
+  00800029 0000001B .sbss   OutBuffer	(AS2_c.obj)
+  00800044 00000001 .sbss   OutIndxW	(AS2_c.obj)
+  00800045 00000001 .sbss   OutIndxR	(AS2_c.obj)
+  00800046 00000001 .sbss   AS2_OutLen	(AS2_c.obj)
+  00800047 00000009 .sbss   InpBuffer	(AS2_c.obj)
+  00800050 00000001 .sbss   InpIndxW	(AS2_c.obj)
+  00800051 00000001 .sbss   InpIndxR	(AS2_c.obj)
+  00800052 00000001 .sbss   AS2_InpLen	(AS2_c.obj)
+  00800053 00000001 .sbss   SerFlag	(AS2_c.obj)
+  00800054 00000010 .sbss   AD1_OutV	(AD1_c.obj)
+  00800064 00000001 .sbss   SumCnt	(AD1_c.obj)
+  00800065 00000001 .sbss   ModeFlg	(AD1_c.obj)
+  00800066 00000001 .sbss   SumChan	(AD1_c.obj)
+  00800067 00000001 .sbss   OutFlg	(AD1_c.obj)
+  00800068 00000018 .sbss   sensores	(main_c.obj)
+  00800080 00000001 .sbss   estado	(main_c.obj)
+  00800081 00000001 .sbss   overcurrent	(main_c.obj)
+  00800082 00000002 .sbss   clock_prueba	(main_c.obj)
+  00800084 00000002 .sbss   clock_actual	(main_c.obj)
+  00800086 00000002 .sbss   clock_inicial	(main_c.obj)
+  00800088 00000002 .sbss   sent	(main_c.obj)
+  0080008A 00000002 .sbss   contador	(Events_c.obj)
+  0080008C 00000002 .sbss   received	(Events_c.obj)
+  0080008E 00000009 .sbss   trama	(Events_c.obj)
+#>00800098          __END_SBSS (linker command file)
+#>00800098          __START_BSS (linker command file)
+  00800098 00000002 .bss    SR_reg	(Cpu_c.obj)
+  0080009C 00000004 .bss    __global_destructor_chain	(librt.a cf_staticinitia)
+#>008000A0          __END_BSS (linker command file)
+#>008000A0          ___BSS_END (linker command file)
+
+# .custom
+#>008000A0          ___HEAP_START (linker command file)
+#>008000A0          ___heap_addr (linker command file)
+#>008004A0          ___HEAP_END (linker command file)
+#>008004A0          ___SP_END (linker command file)
+#>008008A0          ___SP_INIT (linker command file)
+#>008004A0          ___mem_limit (linker command file)
+#>00000010          ___stack_safety (linker command file)
+#>008008A0          __SP_INIT (linker command file)
+#>008008A0          ___SP_AFTER_RESET (linker command file)
+#>00001BD4          _romp_at (linker command file)
+
+# .romp
+#>00001BD4          __S_romp (linker command file)
+
+
+# Memory map:
+  v_addr   p_addr   size     name
+  00000000 00000000 000001E0 .abs__InterruptVectorTable abs__InterruptVectorTable
+  0000040D 0000040D 00000001 .abs_NVPROT_INIT abs_NVPROT_INIT
+  0000040F 0000040F 00000001 .abs_NVOPT_INIT abs_NVOPT_INIT
+  00000410 00000410 00000000 .code      code
+  00000410 00000410 000017B4 .text      code
+  00800000 00800000 00000000 .userram   userram
+  00800000 00001BC4 00000010 .data      userram
+  00800010 00800010 00000090 .bss       userram
+  008000A0 008000A0 00000000 .custom    userram
+  008000A0 00001BD4 00000018 .romp      userram
+
+# Link start time: Fri Jun 19 13:39:25 2015
+# Link end time: Fri Jun 19 13:39:25 2015

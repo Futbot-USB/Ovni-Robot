@@ -1,0 +1,57 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/PE_Timer.h" FileDate="2015-05-06, 16:07:56" FileAge="1430944676890" FileType="45637" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2015-05-06, 15:40:48" FileAge="1430943048143" FileType="45637" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677526" FileType="45637" CompNumb="2" />
+      <File Name="Generated_Code/PE_Timer.c" FileDate="2015-05-06, 16:07:56" FileAge="1430944676874" FileType="45637" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.lcf" FileDate="2015-05-06, 15:40:48" FileAge="1430943048093" FileType="8" CompNumb="2" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2015-05-06, 15:40:48" FileAge="1430943048129" FileType="45637" />
+      <File Name="Sources/main.c" FileDate="2015-05-06, 16:41:39" FileAge="1430946699355" FileType="128" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2015-05-06, 16:43:20" FileAge="1430946800683" FileType="45637" CompNumb="2" />
+      <File Name="Documentation/identif_motores_def_SIGNALS.txt" FileDate="2015-05-21, 13:56:55" FileAge="1432232815256" FileType="3072" />
+      <File Name="Generated_Code/En4.h" FileDate="2015-05-06, 16:07:56" FileAge="1430944676971" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/PWM4.h" FileDate="2015-05-06, 16:24:11" FileAge="1430945651337" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/En4.c" FileDate="2015-05-06, 16:07:56" FileAge="1430944676954" FileType="45637" CompNumb="17" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2015-05-06, 15:40:48" FileAge="1430943048157" FileType="45637" />
+      <File Name="Generated_Code/PWM4.c" FileDate="2015-05-06, 16:24:11" FileAge="1430945651355" FileType="45637" CompNumb="9" />
+      <File Name="Sources/Events.h" FileDate="2015-05-06, 16:07:58" FileAge="1430944678002" FileType="131328" />
+      <File Name="Generated_Code/En3.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677038" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/Ref4.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677121" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2015-05-06, 15:40:48" FileAge="1430943048173" FileType="45637" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2015-05-06, 15:40:48" FileAge="1430943048165" FileType="45637" />
+      <File Name="Sources/Events.c" FileDate="2015-05-06, 15:40:48" FileAge="1430943048054" FileType="131328" />
+      <File Name="Generated_Code/PWM3.h" FileDate="2015-05-06, 16:24:11" FileAge="1430945651324" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/En3.c" FileDate="2015-05-06, 16:07:57" FileAge="1430944677023" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/Ref4.c" FileDate="2015-05-06, 16:07:57" FileAge="1430944677107" FileType="45637" CompNumb="13" />
+      <File Name="Generated_Code/PWM3.c" FileDate="2015-05-06, 16:24:11" FileAge="1430945651333" FileType="45637" CompNumb="8" />
+      <File Name="Documentation/identif_motores_def.txt" FileDate="2015-05-06, 16:29:26" FileAge="1430945966744" FileType="3072" />
+      <File Name="Generated_Code/En2.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677068" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/Ref3.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677152" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/PWM2.h" FileDate="2015-05-06, 16:24:11" FileAge="1430945651284" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/En2.c" FileDate="2015-05-06, 16:07:57" FileAge="1430944677055" FileType="45637" CompNumb="15" />
+      <File Name="Generated_Code/Ref3.c" FileDate="2015-05-06, 16:07:57" FileAge="1430944677136" FileType="45637" CompNumb="12" />
+      <File Name="Generated_Code/PWM2.c" FileDate="2015-05-06, 16:24:11" FileAge="1430945651296" FileType="45637" CompNumb="7" />
+      <File Name="Generated_Code/En1.h" FileDate="2015-05-06, 16:43:20" FileAge="1430946800654" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/Ref2.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677207" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/PWM1.h" FileDate="2015-05-06, 16:24:11" FileAge="1430945651233" FileType="45637" CompNumb="6" />
+      <File Name="Generated_Code/En1.c" FileDate="2015-05-06, 16:43:20" FileAge="1430946800658" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/Ref2.c" FileDate="2015-05-06, 16:07:57" FileAge="1430944677166" FileType="45637" CompNumb="11" />
+      <File Name="Generated_Code/PWM1.c" FileDate="2015-05-06, 16:24:11" FileAge="1430945651237" FileType="45637" CompNumb="6" />
+      <File Name="Generated_Code/Ref1.h" FileDate="2015-05-06, 16:07:57" FileAge="1430944677241" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2015-05-06, 16:29:26" FileAge="1430945966547" FileType="45637" CompNumb="2" />
+      <File Name="Documentation/identif_motores_def_Settings.xml" FileDate="2015-05-06, 16:43:20" FileAge="1430946800930" FileType="3072" />
+      <File Name="Generated_Code/Ref1.c" FileDate="2015-05-06, 16:07:57" FileAge="1430944677217" FileType="45637" CompNumb="10" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>7</CodeGenReference>
+</CodeGenerationInfo>
